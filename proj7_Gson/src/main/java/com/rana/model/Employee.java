@@ -1,6 +1,11 @@
 package com.rana.model;
+
+import com.google.gson.annotations.Expose;
+
 public class Employee {
+	@Expose
 	private Integer eid ;
+	@Expose
 	private String ename;
 	private float esal;
 	public Employee() {

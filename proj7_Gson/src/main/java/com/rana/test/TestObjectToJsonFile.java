@@ -19,6 +19,7 @@ public class TestObjectToJsonFile {
     	e.setEname("Diwakar Rana");
     	e.setEsal(50000.0f);
     	Gson g = new GsonBuilder()
+    			.excludeFieldsWithoutExposeAnnotation()
     			.serializeNulls()
     			.setPrettyPrinting()
     			.create();
