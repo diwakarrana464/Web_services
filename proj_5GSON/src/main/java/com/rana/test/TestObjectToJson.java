@@ -15,7 +15,10 @@ public class TestObjectToJson{
 			//e.setEsal(3.3f);
 			
 			//create Gson class object first way...
-			Gson gg = new Gson();
+			Gson gg = new GsonBuilder()
+					.serializeNulls()
+					.setPrettyPrinting()
+					.create();
 			String json = gg.toJson(e);
 			System.out.println(json);
 			
