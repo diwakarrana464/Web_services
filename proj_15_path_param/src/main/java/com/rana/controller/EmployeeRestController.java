@@ -3,7 +3,7 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 
-@Path("/emp")
+@Path("/emp")         
 public class EmployeeRestController {
 
 	@GET
