@@ -7,5 +7,6 @@ public class SubResult {
 	private String subName;
 	private Integer thryMarksPer;
 	private Integer labMarkPer;
-	private String passFail;  //fail/pass
+	private String passFail;   //fail/pass  
 }
+   
