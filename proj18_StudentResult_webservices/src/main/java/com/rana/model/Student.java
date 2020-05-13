@@ -11,6 +11,6 @@ import lombok.Data;
 public class Student {
 	private Integer sid;
 	private String sname;
-	private List<Subject> subjectList;
+	private List<Subject> subjectList; 
 
 }

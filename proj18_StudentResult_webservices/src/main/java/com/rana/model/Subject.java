@@ -5,8 +5,8 @@ import lombok.Data;
 @Data
 public class Subject {
 	private String subName;
-	private Integer thryMarks;
-	private Integer labMark;
-	private Integer maxThryMark;
-	private Integer maxLabMark;
+	private Integer thryMarks;			//obtained marks
+	private Integer labMark;             //obtained marks
+	private Integer maxThryMark;   //150 per subject
+	private Integer maxLabMark;		// 50 per subject
 }
