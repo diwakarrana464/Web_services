@@ -144,8 +144,8 @@ public class StudentRestController {
 	//produces also optional......in case text/plain..
 	@PUT
 	@Consumes(MediaType.APPLICATION_JSON)
-	//@Path("/update")
-	//@Produces(MediaType.TEXT_PLAIN)
+	@Path("/update")
+	@Produces(MediaType.TEXT_PLAIN)
 	public Response updateStudent(Student s) {
 		 Response res =null;
 		 try {

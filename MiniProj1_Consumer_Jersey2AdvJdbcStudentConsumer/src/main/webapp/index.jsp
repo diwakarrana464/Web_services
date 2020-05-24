@@ -1,9 +1,9 @@
 <%@page isELIgnored="false" %>
 <html>
 <body>
-<%@include file="Menu.jsp" %>
 <div align="center">
 <H3>WELCOME TO STUDENT REGISTER PAGE</H3>
+<jsp:include page="header.jsp"></jsp:include>
 <form action="insert" method="POST">
 <pre>
 ID    : <input type="text" name="sid"/>
@@ -15,5 +15,7 @@ FEE   : <input type="text" name="sfee"/>
 ${message}
 </form>
 </div>
+<div align="center">
+<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
